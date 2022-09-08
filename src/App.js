@@ -6,7 +6,12 @@ import NewExpense from './components/NewExpense/NewExpense';
 // import ExpenseFilter from './components/Expense/ExpenseFilter';
 
 const INITIALIZE_EXPENSE = [
-  { id: 'e1', title: 'Toilet Paper', amount: 93.89, date: new Date(2022, 2, 13), },
+  {
+     id: 'e1',
+     title: 'Toilet Paper',
+     amount: 93.89,
+     date: new Date(2022, 2, 13),
+    },
   { id: 'e2', title: 'New Tv', amount: 65, date: new Date(2020, 2, 22), },
   { id: 'e3', title: 'New Desk(Wooden)', amount: 500.65, date: new Date(2021, 4, 17), },
   { id: 'e4', title: 'Car Insurance', amount: 345.65, date: new Date(2022, 2, 28), }

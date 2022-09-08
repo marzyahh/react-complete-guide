@@ -14,7 +14,6 @@ const FormExpense = (props) => {
     const enteredDateHandler = (event) => {
  
         setEnteredDate(event.target.value);
-        console.log(enteredDate)
         // setUserInput({
         //     ...userInput,
         //     enteredDate: event.target.value
@@ -22,8 +21,7 @@ const FormExpense = (props) => {
         // console.log(event.target.value)
     }
     const enteredPriceHandler = (event) => {
-        setEnteredPrice(event);
-        console.log(enteredPrice)
+        setEnteredPrice(event.target.value);
         // setUserInput({
         //     ...userInput,
         //     enteredAmount: event.target.value,
@@ -33,8 +31,7 @@ const FormExpense = (props) => {
     }
 
     const titleChangeHandler = (event) => {
-       setEnteredTitle(event);
-       console.log(enteredTitle)
+       setEnteredTitle(event.target.value);
     //   setUserInput({
     //     ...userInput,
     //     enteredTitle: event.target.value,
